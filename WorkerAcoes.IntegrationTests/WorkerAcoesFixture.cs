@@ -26,7 +26,6 @@ public class WorkerAcoesFixture : IDisposable
             .GetDatabase(Configuration["MongoDatabase"])
             .GetCollection<AcaoDocument>(Configuration["MongoCollection"]);
         AcaoCollection.DeleteMany(filter => true);
-
     }
 
     public void Dispose()

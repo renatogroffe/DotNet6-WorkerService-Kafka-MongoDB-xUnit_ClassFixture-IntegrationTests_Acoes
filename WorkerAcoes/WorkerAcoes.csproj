@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Confluent.Kafka" Version="1.9.2" />
-    <PackageReference Include="FluentValidation" Version="11.2.1" />
+    <PackageReference Include="FluentValidation" Version="11.2.2" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
     <PackageReference Include="MongoDB.Driver" Version="2.17.1" />
   </ItemGroup>
