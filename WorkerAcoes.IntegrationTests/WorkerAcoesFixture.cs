@@ -3,7 +3,6 @@ using System.IO;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 using WorkerAcoes.IntegrationTests.Documents;
-using Confluent.Kafka;
 
 namespace WorkerAcoes.IntegrationTests;
 
